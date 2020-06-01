@@ -1,10 +1,10 @@
 ﻿using BLL.DTO;
 using BLL.Services;
-using DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using UI.ConsoleOperations;
+using UI.Facade;
 
 namespace UI.Controllers
 {
@@ -40,15 +40,19 @@ namespace UI.Controllers
                         break;
 
                     case ConsoleKey.D2:
+                        new SubMenu<ProductDTO>(new Facade<ProductDTO>(new ProductService(), new ProductConsole())).Menu();
                         break;
 
                     case ConsoleKey.D3:
+                        new SubMenu<IngredientDTO>(new Facade<IngredientDTO>(new IngredientService(), new IngredientConsole())).Menu();
                         break;
 
                     case ConsoleKey.D4:
+                        new SubMenu<RecipeDTO>(new RecipeFacade(new RecipeService(), new RecipeConsole())).Menu();
                         break;
 
                     case ConsoleKey.D5:
+                        new SubMenu<OrderDTO>(new OrderFacade(new OrderService(), new OrderConsole())).Menu();
                         break;
 
                     case ConsoleKey.D6:

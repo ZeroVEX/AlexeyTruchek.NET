@@ -2,6 +2,7 @@
 using UI;
 using System.Collections.Generic;
 using System.Text;
+using UI.Facade;
 
 namespace UI.Controllers
 {
@@ -16,8 +17,23 @@ namespace UI.Controllers
         public SubMenu()
         {
         }
-
         public SubMenu(Facade<T> facade)
+        {
+            OnCreate += facade.Add;
+            OnRead += facade.GetByID;
+            OnUpdate += facade.Update;
+            OnDelete += facade.Delete;
+            OnReadCollection += facade.GetAll;
+        }
+        public SubMenu(RecipeFacade facade)
+        {
+            OnCreate += facade.Add;
+            OnRead += facade.GetByID;
+            OnUpdate += facade.Update;
+            OnDelete += facade.Delete;
+            OnReadCollection += facade.GetAll;
+        }
+        public SubMenu(OrderFacade facade)
         {
             OnCreate += facade.Add;
             OnRead += facade.GetByID;

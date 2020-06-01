@@ -12,7 +12,7 @@ using System.Text;
 
 namespace BLL.Services
 {
-    public class GenericService<T, TModel> : IService<T>
+    public abstract class GenericService<T, TModel> : IService<T>
         where TModel : class, IEntity
     {
         private readonly IRepository<TModel> _repository;
@@ -22,7 +22,7 @@ namespace BLL.Services
         public GenericService()
 		{
             _mapper = new StandartMapper();
-            _repository = new Repos<TModel>(new MyDbContext());
+            _repository = new Repository<TModel>(new MyDbContext());
             _validator = new GenericValidator<T>();
         }
         public void Add(T item)

@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using BLL.Interfaces;
+﻿using BLL.DTO;
 using DAL.Entities;
 
 namespace BLL.Services
 {
-	public class ProductService// : IService<Product>
+	public class ProductService : GenericService<ProductDTO, Product>
 	{
+		public ProductService()
+		{
+		}
 	}
 }

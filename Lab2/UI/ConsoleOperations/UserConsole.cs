@@ -1,5 +1,4 @@
 ﻿using BLL.DTO;
-using DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,20 +10,29 @@ namespace UI.ConsoleOperations
 	{
         public UserDTO Input()
         {
-            UserDTO user = new UserDTO();
+            UserDTO item = new UserDTO();
             Console.WriteLine("Введите логин");
-            user.Login = Console.ReadLine();
+            item.Login = Console.ReadLine();
             Console.WriteLine("Введите пароль");
-            user.Password = Console.ReadLine();
+            item.Password = Console.ReadLine();
             Console.WriteLine("Введите название компании пользователя");
-            user.CompanyName = Console.ReadLine();
-            user.UserType = 1;
-            return user;
+            item.CompanyName = Console.ReadLine();
+            item.UserType = 1;
+            return item;
         }
         public int InputID()
         {
             Console.WriteLine("Введите ID пользователя");
             return Int32.Parse(Console.ReadLine());
+        }
+        public void Update(UserDTO item)
+		{
+            Console.WriteLine("Введите логин");
+            item.Login = Console.ReadLine();
+            Console.WriteLine("Введите пароль");
+            item.Password = Console.ReadLine();
+            Console.WriteLine("Введите название компании пользователя");
+            item.CompanyName = Console.ReadLine();
         }
         public void PrintOne(UserDTO one)
         {

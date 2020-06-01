@@ -1,12 +1,11 @@
 ﻿using BLL.Interfaces;
 using BLL.Services;
-using DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using UI.Interfaces;
 
-namespace UI
+namespace UI.Facade
 {
 	public class Facade<T>
 	{
@@ -29,9 +28,10 @@ namespace UI
 		}
 		public void Update(object sender, EventArgs e)
 		{
-			//int id = console.InputID();
-			//T item = console.Input();
-			//service.Update(id, item);
+			int id = console.InputID();
+			T item = service.GetByID(id);
+			console.Update(item);
+			service.Update(item);
 		}
 		public void GetByID(object sender, EventArgs e)
 		{

@@ -6,11 +6,11 @@ using System.Linq;
 
 namespace DAL
 {
-	public class Repos<T> : IRepository<T>
+	public class Repository<T> : IRepository<T>
 		where T : class, IEntity
 	{
 		private readonly MyDbContext db;
-		public Repos(MyDbContext db)
+		public Repository(MyDbContext db)
 		{
 			this.db = db;
 		}
@@ -31,7 +31,9 @@ namespace DAL
 		}
 		public T GetByID(int id)
 		{
-			return db.Set<T>().FirstOrDefault(item => item.ID == id);
+			T result = db.Set<T>().FirstOrDefault(item => item.ID == id);
+			db.Entry(result).State = EntityState.Detached;
+			return result;
 		}
 		public IEnumerable<T> GetAll()
 		{

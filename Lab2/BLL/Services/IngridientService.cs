@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using BLL.Interfaces;
+﻿using BLL.DTO;
 using DAL.Entities;
 
 namespace BLL.Services
 {
-	public class IngridientService// : IService<Ingridient>
+	public class IngredientService : GenericService<IngredientDTO, Ingredient>
 	{
+		public IngredientService()
+		{
+		}
 	}
 }

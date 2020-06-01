@@ -8,6 +8,7 @@ namespace UI.Interfaces
 	{
 		T Input();
 		int InputID();
+		void Update(T item);
 		void PrintOne(T one);
 		void PrintAll(IEnumerable<T> list);
 	}

@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using BLL.Interfaces;
+﻿using BLL.DTO;
 using DAL.Entities;
 
 namespace BLL.Services
 {
-	class RecipeService// : IService<Recipe>
+	public class RecipeService : GenericService<RecipeDTO, Recipe>
 	{
+		public RecipeService()
+		{
+		}
 	}
 }
