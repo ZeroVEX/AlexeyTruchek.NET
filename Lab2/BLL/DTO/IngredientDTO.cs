@@ -9,9 +9,5 @@ namespace BLL.DTO
 		public int ID { get; set; }
 		public string Title { get; set; }
 		public ICollection<RecipeDTO> Recipes { get; set; }
-		public IngredientDTO(string Title)
-		{
-			this.Title = Title;
-		}
 	}
 }
