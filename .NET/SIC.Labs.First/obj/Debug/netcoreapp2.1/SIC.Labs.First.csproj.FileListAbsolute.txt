@@ -9,3 +9,14 @@ C:\Users\Alex\Desktop\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First
 C:\Users\Alex\Desktop\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.AssemblyInfo.cs
 C:\Users\Alex\Desktop\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.dll
 C:\Users\Alex\Desktop\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.pdb
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\bin\Debug\netcoreapp2.1\NLog.config
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\bin\Debug\netcoreapp2.1\SIC.Labs.First.deps.json
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\bin\Debug\netcoreapp2.1\SIC.Labs.First.runtimeconfig.json
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\bin\Debug\netcoreapp2.1\SIC.Labs.First.runtimeconfig.dev.json
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\bin\Debug\netcoreapp2.1\SIC.Labs.First.dll
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\bin\Debug\netcoreapp2.1\SIC.Labs.First.pdb
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.AssemblyInfo.cs
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.dll
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.pdb
