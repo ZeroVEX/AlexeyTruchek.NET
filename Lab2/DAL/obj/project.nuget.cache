@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Wo0Te+aeUptvalk/0u5ND65XECrjkClT1ifOGT1YHUwM7rgE5JrC0nRYwTgl90J+HKut+mZ2dNP7ZnWgz0uL4g==",
+  "dgSpecHash": "O0LJCdkCVcGKjoNBvKMhY6dXhqz1oOMmiftFPmQattIHIHhMKUUNbl+LZQYOSs0mllHnlER2u3AAOA6PVhW7Ng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\AlexeyTruchek.NET\\Lab2\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -9,7 +9,7 @@ namespace BLL.Interfaces
 	{
 		void Add(T item);
 		void Delete(int id);
-		void Update(int id, T item);
+		void Update(T item);
 		T GetByID(int id);
 		IEnumerable<T> GetAll();
 	}

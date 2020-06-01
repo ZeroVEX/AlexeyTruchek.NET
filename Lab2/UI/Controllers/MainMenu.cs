@@ -1,4 +1,5 @@
-﻿using BLL.Services;
+﻿using BLL.DTO;
+using BLL.Services;
 using DAL.Entities;
 using System;
 using System.Collections.Generic;
@@ -35,7 +36,7 @@ namespace UI.Controllers
                 {
 
                     case ConsoleKey.D1:
-                        new SubMenu<User>(new Facade<User>(new UserService(), new UserConsole())).Menu();
+                        new SubMenu<UserDTO>(new Facade<UserDTO>(new UserService(), new UserConsole())).Menu();
                         break;
 
                     case ConsoleKey.D2:

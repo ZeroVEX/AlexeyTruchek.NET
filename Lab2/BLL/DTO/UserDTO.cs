@@ -2,24 +2,17 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace DAL.Entities
+namespace BLL.DTO
 {
-	public class User : IEntity
+	public class UserDTO
 	{
-		[Key]
 		public int ID { get; set; }
-		[Required]
-		[MaxLength(20)]
 		public string CompanyName { get; set; }
-		[Required]
-		[MaxLength(20)]
 		public string Login { get; set; }
-		[Required]
-		[MaxLength(20)]
 		public string Password { get; set; }
 		public int UserType { get; set; }
-		public ICollection<Order> Orders { get; set; }
-		public User()
+		public ICollection<OrderDTO> Orders { get; set; }
+		public UserDTO()
 		{
 
 		}

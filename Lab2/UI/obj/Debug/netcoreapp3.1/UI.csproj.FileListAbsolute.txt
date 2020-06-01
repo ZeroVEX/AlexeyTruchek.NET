@@ -44,7 +44,6 @@ C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1\UI.dll
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1\UI.pdb
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\obj\Debug\netcoreapp3.1\UI.dll
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\obj\Debug\netcoreapp3.1\UI.pdb
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
@@ -52,3 +51,5 @@ C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1\DAL.dll
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1\BLL.pdb
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\UI\bin\Debug\netcoreapp3.1\AutoMapper.dll

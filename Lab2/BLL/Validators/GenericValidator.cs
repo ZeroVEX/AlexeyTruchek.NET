@@ -1,12 +1,13 @@
-﻿using System;
+﻿using BLL.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace BLL.Validators
 {
-	public static class GenericValidator<T>
+	public class GenericValidator<T> : IValidator<T>
 	{
-		public static void Validate(T entity)
+		public void Validate(T entity)
 		{
 			if (entity == null)
 				throw new NullReferenceException();

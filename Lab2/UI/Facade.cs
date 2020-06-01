@@ -29,9 +29,9 @@ namespace UI
 		}
 		public void Update(object sender, EventArgs e)
 		{
-			int id = console.InputID();
-			T item = console.Input();
-			service.Update(id, item);
+			//int id = console.InputID();
+			//T item = console.Input();
+			//service.Update(id, item);
 		}
 		public void GetByID(object sender, EventArgs e)
 		{

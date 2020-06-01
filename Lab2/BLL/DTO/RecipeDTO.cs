@@ -1,18 +1,17 @@
 ﻿using DAL.Interfaces;
 using System.ComponentModel.DataAnnotations;
 
-namespace DAL.Entities
+namespace BLL.DTO
 {
-	public class Recipe : IEntity
+	public class RecipeDTO
 	{
-		[Key]
 		public int ID { get; set; }
 		public int IngredientID { get; set; }
 		public int ProductID { get; set; }
 		public double Quantity { get; set; }
-		public Product Product { get; set; }
-		public Ingredient Ingredient { get; set; }
-		public Recipe()
+		public ProductDTO Product { get; set; }
+		public IngredientDTO Ingredient { get; set; }
+		public RecipeDTO()
 		{
 
 		}

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRCFyIbcWWbPRea9VqFwRAb1eSMdUjfBGUkaqzXs8HeFSULIfbgtQNNGgkRCKgzUYfT/RuclRuJlYS2SpGS91w==",
+  "dgSpecHash": "5+P3K9bo6TGhkXxW8HzKSs3gvMXbG/jrzLD7Q8F+O0xIuqTsitetaFNQjdW6gAq88Dx/EbcWMUtS0VCmgw7mhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\AlexeyTruchek.NET\\Lab2\\UI\\UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

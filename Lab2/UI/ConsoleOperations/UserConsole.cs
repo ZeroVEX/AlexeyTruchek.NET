@@ -1,4 +1,5 @@
-﻿using DAL.Entities;
+﻿using BLL.DTO;
+using DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,11 +7,11 @@ using UI.Interfaces;
 
 namespace UI.ConsoleOperations
 {
-	public class UserConsole : IConsole<User>
+	public class UserConsole : IConsole<UserDTO>
 	{
-        public User Input()
+        public UserDTO Input()
         {
-            User user = new User();
+            UserDTO user = new UserDTO();
             Console.WriteLine("Введите логин");
             user.Login = Console.ReadLine();
             Console.WriteLine("Введите пароль");
@@ -25,15 +26,15 @@ namespace UI.ConsoleOperations
             Console.WriteLine("Введите ID пользователя");
             return Int32.Parse(Console.ReadLine());
         }
-        public void PrintOne(User one)
+        public void PrintOne(UserDTO one)
         {
             Console.WriteLine(string.Format("{0, 5}{1, 15}{2, 15}{3, 15}", "ID", "Login", "Password", "Company name\n"));
             Console.WriteLine(string.Format("{0, 5}{1, 15}{2, 15}{3, 15}", one.ID, one.Login, one.Password, one.CompanyName));
         }
-        public void PrintAll(IEnumerable<User> list)
+        public void PrintAll(IEnumerable<UserDTO> list)
         {
             Console.WriteLine(string.Format("{0, 5}{1, 15}{2, 15}{3, 15}", "ID", "Login", "Password", "Company name\n"));
-            foreach (User one in list)
+            foreach (UserDTO one in list)
 			{
                 Console.WriteLine(string.Format("{0, 5}{1, 15}{2, 15}{3, 15}", one.ID, one.Login, one.Password, one.CompanyName));
             }

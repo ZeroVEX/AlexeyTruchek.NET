@@ -45,6 +45,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -126,6 +130,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -198,9 +206,6 @@
             "projectReferences": {
               "C:\\Users\\Alex\\Documents\\GitHub\\AlexeyTruchek.NET\\Lab2\\BLL\\BLL.csproj": {
                 "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\AlexeyTruchek.NET\\Lab2\\BLL\\BLL.csproj"
-              },
-              "C:\\Users\\Alex\\Documents\\GitHub\\AlexeyTruchek.NET\\Lab2\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\AlexeyTruchek.NET\\Lab2\\DAL\\DAL.csproj"
               }
             }
           }
@@ -214,6 +219,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"

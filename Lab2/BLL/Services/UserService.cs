@@ -1,4 +1,5 @@
-﻿using BLL.Exceptions;
+﻿using BLL.DTO;
+using BLL.Exceptions;
 using BLL.Interfaces;
 using BLL.Validators;
 using DAL;
@@ -11,7 +12,7 @@ using System.Text;
 
 namespace BLL.Services
 {
-	public class UserService : IService<User>
+	public class UserService : GenericService<UserDTO, User>
 	{
 		private readonly IRepository<User> CrudUser;
 		public UserService()
@@ -20,20 +21,16 @@ namespace BLL.Services
 		}
 		public void Add(User user)
 		{
-			GenericValidator<User>.Validate(user);
 			CrudUser.Add(user);
 		}
 		public void Delete(int id)
 		{
 			User user = GetAll().FirstOrDefault(t => t.ID == id);
-			GenericValidator<User>.Validate(user);
 			CrudUser.Delete(user);
 		}
 		public void Update(int id, User item)
 		{
 			User user = GetAll().FirstOrDefault(t => t.ID == id);
-			GenericValidator<User>.Validate(item);
-			GenericValidator<User>.Validate(item);
 			user.Login = item.Login;
 			user.Password = item.Password;
 			user.CompanyName = item.CompanyName;

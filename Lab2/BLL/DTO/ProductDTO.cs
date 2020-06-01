@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace DAL.Entities
+namespace BLL.DTO
 {
-	public class Ingredient : IEntity
+	public class ProductDTO
 	{
-		[Key]
 		public int ID { get; set; }
-		[Required]
 		public string Title { get; set; }
-		public ICollection<Recipe> Recipes { get; set; }
-		public Ingredient()
+		public ICollection<RecipeDTO> Recipes { get; set; }
+		public ICollection<OrderDTO> Orders { get; set; }
+		public ProductDTO()
 		{
 
 		}

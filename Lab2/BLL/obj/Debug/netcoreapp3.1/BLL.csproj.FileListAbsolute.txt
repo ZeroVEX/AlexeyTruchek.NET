@@ -6,10 +6,10 @@ C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\obj\Debug\netcoreapp3.
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\bin\Debug\netcoreapp3.1\BLL.runtimeconfig.json
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\bin\Debug\netcoreapp3.1\BLL.runtimeconfig.dev.json
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
-C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\obj\Debug\netcoreapp3.1\BLL.genruntimeconfig.cache
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\bin\Debug\netcoreapp3.1\DAL.dll
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
