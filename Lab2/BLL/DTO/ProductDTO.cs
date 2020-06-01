@@ -10,9 +10,5 @@ namespace BLL.DTO
 		public string Title { get; set; }
 		public ICollection<RecipeDTO> Recipes { get; set; }
 		public ICollection<OrderDTO> Orders { get; set; }
-		public ProductDTO()
-		{
-
-		}
 	}
 }

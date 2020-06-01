@@ -11,9 +11,5 @@ namespace BLL.DTO
 		public double Quantity { get; set; }
 		public ProductDTO Product { get; set; }
 		public IngredientDTO Ingredient { get; set; }
-		public RecipeDTO()
-		{
-
-		}
 	}
 }

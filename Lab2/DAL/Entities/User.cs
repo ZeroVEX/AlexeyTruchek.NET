@@ -19,9 +19,5 @@ namespace DAL.Entities
 		public string Password { get; set; }
 		public int UserType { get; set; }
 		public ICollection<Order> Orders { get; set; }
-		public User()
-		{
-
-		}
 	}
 }

@@ -11,9 +11,5 @@ namespace DAL.Entities
 		[Required]
 		public string Title { get; set; }
 		public ICollection<Recipe> Recipes { get; set; }
-		public Ingredient()
-		{
-
-		}
 	}
 }

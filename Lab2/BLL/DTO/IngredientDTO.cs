@@ -13,9 +13,5 @@ namespace BLL.DTO
 		{
 			this.Title = Title;
 		}
-		public IngredientDTO()
-		{
-
-		}
 	}
 }

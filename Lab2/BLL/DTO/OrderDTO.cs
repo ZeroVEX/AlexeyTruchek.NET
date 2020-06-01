@@ -13,9 +13,5 @@ namespace BLL.DTO
 		public DateTime Date { get; set; }
 		public UserDTO User { get; set; }
 		public ProductDTO Product { get; set; }
-		public OrderDTO()
-		{
-
-		}
 	}
 }

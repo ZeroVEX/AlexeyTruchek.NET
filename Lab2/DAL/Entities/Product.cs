@@ -12,9 +12,5 @@ namespace DAL.Entities
 		public string Title { get; set; }
 		public ICollection<Recipe> Recipes { get; set; }
 		public ICollection<Order> Orders { get; set; }
-		public Product()
-		{
-
-		}
 	}
 }

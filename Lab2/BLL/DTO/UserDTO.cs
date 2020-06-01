@@ -12,9 +12,5 @@ namespace BLL.DTO
 		public string Password { get; set; }
 		public int UserType { get; set; }
 		public ICollection<OrderDTO> Orders { get; set; }
-		public UserDTO()
-		{
-
-		}
 	}
 }

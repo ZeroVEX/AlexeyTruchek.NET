@@ -17,9 +17,5 @@ namespace DAL.Entities
 		public DateTime Date { get; set; }
 		public User User { get; set; }
 		public Product Product { get; set; }
-		public Order()
-		{
-
-		}
 	}
 }
