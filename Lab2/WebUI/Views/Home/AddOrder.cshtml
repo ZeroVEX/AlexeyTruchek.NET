@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добавление заказа</title>
+</head>
+<body>
+    <div>
+        <h3>Форма добавления заказа</h3>
+        <p>Для добавления заказа заполните следующие поля:</p>
+        <form method="post">
+            <table>
+                <tr>
+                    <td>ID Пользователя:</td>
+                    <td><input type="text" name="UserID" /> </td>
+                </tr>
+                <tr>
+                    <td>ID продукта:</td>
+                    <td><input type="text" name="ProductID" /></td>
+                </tr>
+                <tr>
+                    <td>Количество:</td>
+                    <td><input type="text" name="Quantity" /></td>
+                </tr>
+                <tr>
+                    <td>Дата:</td>
+                    <td><input type="text" name="Date" /></td>
+                </tr>
+                <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
