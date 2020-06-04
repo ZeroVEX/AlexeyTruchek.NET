@@ -1,0 +1,24 @@
+﻿@model IEnumerable<BLL.DTO.IngredientDTO>
+@{
+    ViewData["Title"] = "Список ингредиентов";
+}
+
+<h3>Ингредиенты</h3>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Название</td>
+        <td></td>
+    </tr>
+    @foreach (var one in Model)
+    {
+        <tr>
+            <td>@one.ID</td>
+            <td>@one.Title</td>
+        </tr>
+    }
+</table>
+<a href="~/Ingredients/AddIngredient">Добавить</a>
+<a href="~/Ingredients/DeleteIngredient">Удалить</a>
+<a href="~/Ingredients/SearchIngredient">Поиск</a>
+<a href="~/Ingredients/UpdateIngredient">Обновление данных</a>

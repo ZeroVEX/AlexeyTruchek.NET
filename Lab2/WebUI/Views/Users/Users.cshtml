@@ -1,0 +1,28 @@
+﻿@model IEnumerable<BLL.DTO.UserDTO>
+@{
+    ViewData["Title"] = "Список пользователей";
+}
+
+<h3>Пользователи</h3>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Логин</td>
+        <td>Пароль</td>
+        <td>Название компании</td>
+        <td></td>
+    </tr>
+    @foreach (var one in Model)
+    {
+        <tr>
+            <td>@one.ID</td>
+            <td>@one.Login</td>
+            <td>@one.Password</td>
+            <td>@one.CompanyName</td>
+        </tr>
+    }
+</table>
+<a href="~/Users/AddUser">Добавить</a>
+<a href="~/Users/DeleteUser">Удалить</a>
+<a href="~/Users/SearchUser">Поиск</a>
+<a href="~/Users/UpdateUser">Обновление данных</a>

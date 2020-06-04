@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Обновление данных заказа";
+}
+
+<div>
+    <h3>Форма обновления данных заказа</h3>
+    <p>Введите ID и новые данные заказа:</p>
+    <form method="post">
+        <table>
+            <tr>
+                <td>ID:</td>
+                <td><input type="number" name="ID" /> </td>
+            </tr>
+            <tr>
+                <td>ID Пользователя:</td>
+                <td><input type="text" name="UserID" /> </td>
+            </tr>
+            <tr>
+                <td>ID продукта:</td>
+                <td><input type="text" name="ProductID" /></td>
+            </tr>
+            <tr>
+                <td>Количество:</td>
+                <td><input type="text" name="Quantity" /></td>
+            </tr>
+            <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+        </table>
+    </form>
+</div>
