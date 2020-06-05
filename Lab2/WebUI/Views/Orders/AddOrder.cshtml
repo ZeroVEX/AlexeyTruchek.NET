@@ -5,11 +5,12 @@
 <div>
     <h3>Форма добавления заказа</h3>
     <p>Для добавления заказа заполните следующие поля:</p>
-    <form method="post">
+    @using (Html.BeginForm())
+    {
         <table>
             <tr>
                 <td>ID Пользователя:</td>
-                <td><input type="text" name="UserID" /> </td>
+                <td><input type="text" name="UserID" /></td>
             </tr>
             <tr>
                 <td>ID продукта:</td>
@@ -19,7 +20,7 @@
                 <td>Количество:</td>
                 <td><input type="text" name="Quantity" /></td>
             </tr>
-            <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+            <tr><td><input type="submit" value="Отправить" /></td></tr>
         </table>
-    </form>
+    }
 </div>

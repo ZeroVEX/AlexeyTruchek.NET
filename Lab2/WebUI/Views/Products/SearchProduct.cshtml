@@ -1,4 +1,5 @@
-﻿@model BLL.DTO.ProductDTO
+﻿@model ProductDTO
+@using BLL.DTO
 @{
     ViewData["Title"] = "Поиск продукта";
 }
@@ -6,27 +7,19 @@
 <div>
     <h3>Форма поиска продукта</h3>
     <p>Для поиска продукта введите его ID:</p>
-    <form method="post">
-        <table>
-            <tr>
-                <td>ID:</td>
-                <td><input type="number" name="ID" /> </td>
-            </tr>
-            <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
-        </table>
+
+    <form asp-action="SearchProduct">
+        <div>
+            <div>
+                <label asp-for="ID"></label>
+                <input type="number" asp-for="ID" />
+            </div>
+            <input type="submit" value="Отправить" />
+        </div>
     </form>
+
     @if (Model != null)
     {
-        <table>
-            <tr>
-                <td>ID</td>
-                <td>Название</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>@Model.ID</td>
-                <td>@Model.Title</td>
-            </tr>
-        </table>
+        @Html.CreateList(new List<ProductDTO>() { Model })
     }
 </div>

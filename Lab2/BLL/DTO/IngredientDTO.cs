@@ -1,10 +1,11 @@
-﻿using DAL.Interfaces;
+﻿using BLL.Interfaces;
+using DAL.Interfaces;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace BLL.DTO
 {
-	public class IngredientDTO
+	public class IngredientDTO : IModel
 	{
 		public int ID { get; set; }
 		public string Title { get; set; }

@@ -26,8 +26,15 @@ using WebUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\Views\_ViewImports.cshtml"
+using WebUI.App_Code;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"01e3323b8fb503dfe5865eb7954a0419f0819ded", @"/Views/Recipes/UpdateRecipe.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"43d8308283e147aceb640f85e77cb8c039e61219", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"663a78a22c301d934546fdb22d7e5ded85de9de6", @"/Views/_ViewImports.cshtml")]
     public class Views_Recipes_UpdateRecipe : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -65,7 +72,7 @@ using WebUI.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div>\r\n    <h3>Форма обновления данных рецепта</h3>\r\n    <p>Введите ID и новые данные рецепта:</p>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01e3323b8fb503dfe5865eb7954a0419f0819ded3906", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01e3323b8fb503dfe5865eb7954a0419f0819ded4095", async() => {
                 WriteLiteral(@"
         <table>
             <tr>

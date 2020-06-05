@@ -4,21 +4,7 @@
 }
 
 <h3>Продукты</h3>
-<table>
-    <tr>
-        <td>ID</td>
-        <td>Название</td>
-        <td></td>
-    </tr>
-    @foreach (var one in Model)
-    {
-        <tr>
-            <td>@one.ID</td>
-            <td>@one.Title</td>
-        </tr>
-    }
-</table>
-<a href="~/Products/AddProduct">Добавить</a>
-<a href="~/Products/DeleteProduct">Удалить</a>
-<a href="~/Products/SearchProduct">Поиск</a>
-<a href="~/Products/UpdateProduct">Обновление данных</a>
+
+@Html.CreateList(Model)
+
+@Html.CreateLinkMenu("Product")

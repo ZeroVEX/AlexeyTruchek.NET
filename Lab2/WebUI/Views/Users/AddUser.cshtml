@@ -5,12 +5,13 @@
 <div>
     <h3>Форма добавления пользователя</h3>
     <p>Для добавления пользователя заполните следующие поля:</p>
-    <form method="post">
+    @using (Html.BeginForm())
+    {
         <input type="hidden" value="1" name="UserType" />
         <table>
             <tr>
                 <td>Логин:</td>
-                <td><input type="text" name="Login" /> </td>
+                <td><input type="text" name="Login" /></td>
             </tr>
             <tr>
                 <td>Пароль:</td>
@@ -20,7 +21,7 @@
                 <td>Название компании:</td>
                 <td><input type="text" name="CompanyName" /></td>
             </tr>
-            <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+            <tr><td><input type="submit" value="Отправить" /></td></tr>
         </table>
-    </form>
+    }
 </div>

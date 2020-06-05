@@ -5,13 +5,14 @@
 <div>
     <h3>Форма добавления ингредиента</h3>
     <p>Для добавления ингредиента заполните следующие поля:</p>
-    <form method="post">
+    @using (Html.BeginForm())
+    {
         <table>
             <tr>
                 <td>Название:</td>
-                <td><input type="text" name="Title" /> </td>
+                <td><input type="text" name="Title" /></td>
             </tr>
-            <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+            <tr><td><input type="submit" value="Отправить" /></td></tr>
         </table>
-    </form>
+    }
 </div>

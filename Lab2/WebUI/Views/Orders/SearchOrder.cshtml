@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<BLL.DTO.OrderDTO>
+@using BLL.DTO
 @{
     ViewData["Title"] = "Поиск заказов";
 }
@@ -6,36 +7,18 @@
 <div>
     <h3>Форма поиска заказа</h3>
     <p>Для поиска рецепта введите ID пользователя:</p>
-    <form method="post">
-        <table>
-            <tr>
-                <td>ID:</td>
-                <td><input type="number" name="ID" /> </td>
-            </tr>
-            <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
-        </table>
-    </form>
-    @if (Model != null)
+    @using (Html.BeginForm())
     {
         <table>
             <tr>
-                <td>ID</td>
-                <td>ID пользователя</td>
-                <td>ID продукта</td>
-                <td>Количество</td>
-                <td>Дата</td>
-                <td></td>
+                <td>ID:</td>
+                <td><input type="number" name="ID" /></td>
             </tr>
-            @foreach (var one in Model)
-            {
-                <tr>
-                    <td>@one.ID</td>
-                    <td>@one.UserID</td>
-                    <td>@one.ProductID</td>
-                    <td>@one.Quantity</td>
-                    <td>@one.Date</td>
-                </tr>
-            }
+            <tr><td><input type="submit" value="Отправить" /></td></tr>
         </table>
+    }
+    @if (Model != null)
+    {
+        @Html.CreateList(Model)
     }
 </div>

@@ -1,10 +1,11 @@
-﻿using DAL.Interfaces;
+﻿using BLL.Interfaces;
+using DAL.Interfaces;
 using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace BLL.DTO
 {
-	public class OrderDTO
+	public class OrderDTO : IModel
 	{
 		public int ID { get; set; }
 		public int UserID { get; set; }
