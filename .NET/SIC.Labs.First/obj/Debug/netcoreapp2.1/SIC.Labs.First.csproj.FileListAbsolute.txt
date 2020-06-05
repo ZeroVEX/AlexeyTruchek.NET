@@ -20,3 +20,5 @@ C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\n
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.AssemblyInfo.cs
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.dll
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.pdb
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\.NET\SIC.Labs.First\obj\Debug\netcoreapp2.1\SIC.Labs.First.genruntimeconfig.cache
