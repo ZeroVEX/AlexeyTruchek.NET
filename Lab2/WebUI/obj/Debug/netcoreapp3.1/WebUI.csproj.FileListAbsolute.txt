@@ -12,8 +12,6 @@ C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\bin\Debug\netcoreapp
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.csprojAssemblyReference.cache
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.AssemblyInfoInputs.cache
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.AssemblyInfo.cs
-C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.csproj.CoreCompileInputs.cache
-C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.RazorAssemblyInfo.cache
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.RazorAssemblyInfo.cs
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.TagHelpers.input.cache
@@ -98,3 +96,11 @@ C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Recipes\SearchRecipe.cshtml.g.cs
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Recipes\UpdateRecipe.cshtml.g.cs
 C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Users\UpdateUser.cshtml.g.cs
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alex\Documents\GitHub\AlexeyTruchek.NET\Lab2\WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
